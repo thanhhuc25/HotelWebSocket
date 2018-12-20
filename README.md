@@ -31,6 +31,6 @@ https://www.jetbrains.com/idea/
 7. `mvn tomcat7:run`
 8. Build https://www.jetbrains.com/help/idea/deploying-a-web-app-into-an-app-server-container.html
 9. brew services start tomcat
-10. copy WAR dir in step 8 to `/usr/local/Cellar/tomcat/9.0.14/libexec/webapps` dir (directory name can difference on your own machine)
-11. brew services restart tomcat
+10. copy WAR dir(repo/target/<WAR DIR>) in step 8 to `/usr/local/Cellar/tomcat/9.0.14/libexec/webapps` dir (directory name can difference on your own machine)
+11. `brew services restart tomcat`
 12. Visit http://localhost:8080/HotelWebSocket/ to see result
