@@ -2,7 +2,7 @@
 
 
 ## Requirement
-- java > 8
+- java >= 8
 - tomcat > 7
 
 ## Development
